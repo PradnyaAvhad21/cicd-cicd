@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "new cd 🚀"
+    return "have a nice day 🚀"
 
 app.run(host="0.0.0.0", port=10000)
